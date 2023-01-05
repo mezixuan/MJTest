@@ -18,6 +18,7 @@
 		853A282529670E0500EA4253 /* MJTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 853A282429670E0500EA4253 /* MJTestTests.m */; };
 		853A282F29670E0500EA4253 /* MJTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 853A282E29670E0500EA4253 /* MJTestUITests.m */; };
 		853A283129670E0500EA4253 /* MJTestUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 853A283029670E0500EA4253 /* MJTestUITestsLaunchTests.m */; };
+		853A283F296710BE00EA4253 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 853A283E296710BE00EA4253 /* User.m */; };
 		8737B6819B3A84263E34D48D /* Pods_MJTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93A1E86D3369E3F903660D0D /* Pods_MJTest.framework */; };
 		EB9E1FC7DAB0375A0887B824 /* Pods_MJTest_MJTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88843B8B52F9DFAEB4567ABE /* Pods_MJTest_MJTestUITests.framework */; };
 /* End PBXBuildFile section */
@@ -60,6 +61,8 @@
 		853A282A29670E0500EA4253 /* MJTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MJTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		853A282E29670E0500EA4253 /* MJTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJTestUITests.m; sourceTree = "<group>"; };
 		853A283029670E0500EA4253 /* MJTestUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJTestUITestsLaunchTests.m; sourceTree = "<group>"; };
+		853A283D296710BE00EA4253 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		853A283E296710BE00EA4253 /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		88843B8B52F9DFAEB4567ABE /* Pods_MJTest_MJTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MJTest_MJTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A1E86D3369E3F903660D0D /* Pods_MJTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MJTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97094FD35F231D6394226587 /* Pods-MJTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJTest.release.xcconfig"; path = "Target Support Files/Pods-MJTest/Pods-MJTest.release.xcconfig"; sourceTree = "<group>"; };
@@ -142,6 +145,8 @@
 				853A281629670E0500EA4253 /* LaunchScreen.storyboard */,
 				853A281929670E0500EA4253 /* Info.plist */,
 				853A281A29670E0500EA4253 /* main.m */,
+				853A283D296710BE00EA4253 /* User.h */,
+				853A283E296710BE00EA4253 /* User.m */,
 			);
 			path = MJTest;
 			sourceTree = "<group>";
@@ -173,7 +178,6 @@
 				C033196125A4612626D52153 /* Pods-MJTestTests.debug.xcconfig */,
 				C4C41AEFC98D169B0FEE2DB3 /* Pods-MJTestTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -415,6 +419,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				853A283F296710BE00EA4253 /* User.m in Sources */,
 				853A281029670E0200EA4253 /* ViewController.m in Sources */,
 				853A280A29670E0200EA4253 /* AppDelegate.m in Sources */,
 				853A281B29670E0500EA4253 /* main.m in Sources */,
